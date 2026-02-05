@@ -1,252 +1,394 @@
 {
-  "common": {
-    "getStarted": "Comenzar",
-    "signIn": "Iniciar Sesión",
-    "signUp": "Registrarse",
-    "logout": "Cerrar Sesión",
-    "save": "Guardar",
+ "common": {
+  "getStarted": "Comenzar",
+  "signIn": "Iniciar Sesión",
+  "signUp": "Registrarse",
+  "logout": "Cerrar Sesión",
+  "save": "Guardar",
+  "cancel": "Cancelar",
+  "delete": "Eliminar",
+  "edit": "Editar",
+  "add": "Agregar",
+  "search": "Buscar",
+  "loading": "Cargando...",
+  "copy": "Copiar",
+  "copied": "¡Copiado!",
+  "share": "Compartir",
+  "close": "Cerrar",
+  "yes": "Sí",
+  "no": "No",
+  "confirmDelete": "¿Estás seguro de que quieres eliminar esto?",
+  "confirm": "Confirmar",
+  "back": "Atrás",
+  "next": "Siguiente",
+  "submit": "Enviar",
+  "create": "Crear",
+  "update": "Actualizar",
+  "remove": "Eliminar",
+  "activate": "Activar",
+  "deactivate": "Desactivar",
+  "admin": "Administrador",
+  "user": "Usuario",
+  "active": "Activo",
+  "inactive": "Inactivo"
+ },
+ "navbar": {
+  "dashboard": "Panel",
+  "profile": "Perfil",
+  "admin": "Admin",
+  "home": "Inicio",
+  "language": "Idioma",
+  "english": "Inglés",
+  "spanish": "Español",
+  "arabic": "Árabe"
+ },
+ "home": {
+  "hero": {
+   "badge": "Gratis - No se requiere tarjeta de crédito",
+   "title": "Un enlace para",
+   "highlight": "compartir todo",
+   "description": "Crea tu hub de enlaces personales en minutos. Comparte tus perfiles sociales, sitios web y contenido con un solo enlace hermoso.",
+   "getStarted": "Comenzar Gratis",
+   "viewDemo": "Ver Demo"
+  },
+  "features": {
+   "title": "Todo lo que necesitas",
+   "subtitle": "Características potentes para ayudarte a compartir y crecer",
+   "fast": {
+    "title": "Ultra Rápido",
+    "description": "Crea tu perfil en segundos y comienza a compartir tus enlaces instantáneamente."
+   },
+   "customizable": {
+    "title": "Personalizable",
+    "description": "Personaliza tu perfil con temas personalizados, colores y opciones de estilo."
+   },
+   "analytics": {
+    "title": "Analíticas",
+    "description": "Rastrea clics y participación con análisis detallados de todos tus enlaces."
+   },
+   "secure": {
+    "title": "Seguro",
+    "description": "Tus datos están protegidos con medidas de seguridad de nivel industrial."
+   }
+  },
+  "cta": {
+   "title": "¿Listo para compartir tu mundo?",
+   "description": "Únete a miles de creadores, influencers y empresas que confían en profl.ink.",
+   "button": "Crear Tu Perfil"
+  },
+   "footer": {
+    "copyright": "© 2026 profl.ink. Construido con MERN Stack.",
+    "terms": "Términos de Servicio",
+    "privacy": "Política de Privacidad"
+   }
+ },
+ "login": {
+  "title": "Bienvenido de nuevo",
+  "subtitle": "¿No tienes una cuenta?",
+  "signUpLink": "Regístrate",
+  "email": "Correo electrónico",
+  "emailPlaceholder": "tu@ejemplo.com",
+  "password": "Contraseña",
+  "passwordPlaceholder": "••••••••",
+  "signInButton": "Iniciar sesión",
+  "demoCredentials": "Credenciales de demo",
+  "adminDemo": "Admin: admin@linktree.com / admin123"
+ },
+ "register": {
+  "title": "Crea tu cuenta",
+  "subtitle": "¿Ya tienes una cuenta?",
+  "signInLink": "Inicia sesión",
+  "email": "Correo electrónico",
+  "emailPlaceholder": "tu@ejemplo.com",
+  "username": "Nombre de usuario",
+  "usernamePlaceholder": "juanperez",
+  "usernameHint": "Tu perfil estará en /u/nombre-de-usuario",
+  "displayName": "Nombre para mostrar (opcional)",
+  "displayNamePlaceholder": "Juan Pérez",
+  "password": "Contraseña",
+  "passwordPlaceholder": "••••••••",
+  "passwordHint": "Debe tener al menos 6 caracteres",
+  "createButton": "Crear cuenta",
+  "terms": "Al crear una cuenta, aceptas nuestros Términos de Servicio y Política de Privacidad"
+ },
+ "dashboard": {
+  "stats": {
+   "totalLinks": "Enlaces Totales",
+   "activeLinks": "Enlaces Activos",
+   "totalClicks": "Clics Totales",
+   "yourProfile": "Tu Perfil",
+   "copyLink": "Copiar Enlace"
+  },
+   "links": {
+    "title": "Tus Enlaces",
+    "subtitle": "Administra y organiza tus enlaces compartidos",
+    "addLink": "Agregar Enlace",
+    "noLinks": "Aún no hay enlaces",
+    "noLinksDescription": "Agrega tu primer enlace para comenzar",
+    "addFirstLink": "Agregar Tu Primer Enlace",
+    "clicks": "clics",
+    "hide": "Ocultar enlace",
+    "show": "Mostrar enlace",
+    "edit": "Editar enlace",
+    "delete": "Eliminar enlace",
+    "pin": "Fijar enlace",
+    "unpin": "Desfijar enlace",
+    "hidden": "Oculto",
+    "scheduledHidden": "Programado",
+    "from": "Desde",
+    "to": "hasta"
+   },
+  "modal": {
+    "addTitle": "Agregar Nuevo Enlace",
+    "editTitle": "Editar Enlace",
+    "titleLabel": "Título",
+    "titlePlaceholder": "Mi Sitio Web",
+    "urlLabel": "URL",
+    "urlPlaceholder": "https://ejemplo.com",
+    "iconLabel": "Icono",
     "cancel": "Cancelar",
-    "delete": "Eliminar",
-    "edit": "Editar",
-    "add": "Agregar",
-    "search": "Buscar",
-    "loading": "Cargando...",
-    "copy": "Copiar",
-    "copied": "¡Copiado!",
-    "share": "Compartir",
-    "close": "Cerrar",
-    "yes": "Sí",
-    "no": "No",
-    "confirmDelete": "¿Estás seguro de que quieres eliminar esto?",
-    "confirm": "Confirmar",
-    "back": "Atrás",
-    "next": "Siguiente",
-    "submit": "Enviar",
-    "create": "Crear",
-    "update": "Actualizar",
-    "remove": "Eliminar",
-    "activate": "Activar",
-    "deactivate": "Desactivar",
-    "admin": "Administrador",
-    "user": "Usuario",
-    "active": "Activo",
-    "inactive": "Inactivo"
-  },
-  "navbar": {
-    "dashboard": "Panel",
-    "profile": "Perfil",
-    "admin": "Admin",
-    "home": "Inicio",
-    "language": "Idioma",
-    "english": "Inglés",
-    "spanish": "Español",
-    "arabic": "Árabe"
-  },
-  "home": {
-    "hero": {
-      "badge": "Gratis - No se requiere tarjeta de crédito",
-      "title": "Un enlace para",
-      "highlight": "compartir todo",
-      "description": "Crea tu hub de enlaces personales en minutos. Comparte tus perfiles sociales, sitios web y contenido con un solo enlace hermoso.",
-      "getStarted": "Comenzar Gratis",
-      "viewDemo": "Ver Demo"
-    },
-    "features": {
-      "title": "Todo lo que necesitas",
-      "subtitle": "Características potentes para ayudarte a compartir y crecer",
-      "fast": {
-        "title": "Ultra Rápido",
-        "description": "Crea tu perfil en segundos y comienza a compartir tus enlaces instantáneamente."
-      },
-      "customizable": {
-        "title": "Personalizable",
-        "description": "Personaliza tu perfil con temas personalizados, colores y opciones de estilo."
-      },
-      "analytics": {
-        "title": "Analíticas",
-        "description": "Rastrea clics y participación con análisis detallados de todos tus enlaces."
-      },
-      "secure": {
-        "title": "Seguro",
-        "description": "Tus datos están protegidos con medidas de seguridad de nivel industrial."
-      }
-    },
-    "cta": {
-      "title": "¿Listo para compartir tu mundo?",
-        "description": "Únete a miles de creadores, influencers y empresas que confían en profl.ink.",
-      "button": "Crear Tu Perfil"
-    },
-    "footer": {
-        "copyright": "© 2024 profl.ink. Construido con MERN Stack."
-    }
-  },
-  "login": {
-    "title": "Bienvenido de nuevo",
-    "subtitle": "¿No tienes una cuenta?",
-    "signUpLink": "Regístrate",
-    "email": "Correo electrónico",
-    "emailPlaceholder": "tu@ejemplo.com",
-    "password": "Contraseña",
-    "passwordPlaceholder": "••••••••",
-    "signInButton": "Iniciar sesión",
-    "demoCredentials": "Credenciales de demo",
-    "adminDemo": "Admin: admin@linktree.com / admin123"
-  },
-  "register": {
-    "title": "Crea tu cuenta",
-    "subtitle": "¿Ya tienes una cuenta?",
-    "signInLink": "Inicia sesión",
-    "email": "Correo electrónico",
-    "emailPlaceholder": "tu@ejemplo.com",
-    "username": "Nombre de usuario",
-    "usernamePlaceholder": "juanperez",
-    "usernameHint": "Tu perfil estará en /u/nombre-de-usuario",
-    "displayName": "Nombre para mostrar (opcional)",
-    "displayNamePlaceholder": "Juan Pérez",
-    "password": "Contraseña",
-    "passwordPlaceholder": "••••••••",
-    "passwordHint": "Debe tener al menos 6 caracteres",
-    "createButton": "Crear cuenta",
-    "terms": "Al crear una cuenta, aceptas nuestros Términos de Servicio y Política de Privacidad"
-  },
-  "dashboard": {
-    "stats": {
-      "totalLinks": "Enlaces Totales",
-      "activeLinks": "Enlaces Activos",
-      "totalClicks": "Clics Totales",
-      "yourProfile": "Tu Perfil",
-      "copyLink": "Copiar Enlace"
-    },
-    "links": {
-      "title": "Tus Enlaces",
-      "subtitle": "Administra y organiza tus enlaces compartidos",
-      "addLink": "Agregar Enlace",
-      "noLinks": "Aún no hay enlaces",
-      "noLinksDescription": "Agrega tu primer enlace para comenzar",
-      "addFirstLink": "Agregar Tu Primer Enlace",
-      "clicks": "clics",
-      "hide": "Ocultar enlace",
-      "show": "Mostrar enlace",
-      "edit": "Editar enlace",
-      "delete": "Eliminar enlace"
-    },
-    "modal": {
-      "addTitle": "Agregar Nuevo Enlace",
-      "editTitle": "Editar Enlace",
-      "titleLabel": "Título",
-      "titlePlaceholder": "Mi Sitio Web",
-      "urlLabel": "URL",
-      "urlPlaceholder": "https://ejemplo.com",
-      "iconLabel": "Icono",
-      "cancel": "Cancelar",
-      "addButton": "Agregar Enlace",
-      "updateButton": "Actualizar Enlace"
-    }
-  },
-  "profile": {
-    "publicProfile": {
-      "title": "Tu Perfil Público",
-      "description": "Comparte este enlace con tu audiencia",
-      "copyLink": "Copiar Enlace"
-    },
-    "information": {
-      "title": "Información del Perfil",
-      "subtitle": "Actualiza los detalles de tu perfil",
-      "displayName": "Nombre para Mostrar",
-      "username": "Nombre de Usuario",
-      "usernameHint": "El nombre de usuario no se puede cambiar",
-      "bio": "Biografía",
-      "bioPlaceholder": "Cuéntanos sobre ti...",
-      "bioHint": "{{count}}/500 caracteres",
-      "saveChanges": "Guardar Cambios"
-    },
-    "social": {
-      "title": "Enlaces Sociales",
-      "subtitle": "Conecta tus cuentas de redes sociales",
-      "saveButton": "Guardar Enlaces Sociales"
-    },
-    "theme": {
-      "title": "Tema",
-      "subtitle": "Personaliza la apariencia de tu perfil",
-      "backgroundColor": "Color de Fondo",
-      "buttonColor": "Color de Botón",
-      "buttonTextColor": "Color de Texto del Botón",
-      "preview": "Vista Previa",
-      "sampleButton": "Botón de Ejemplo",
-      "saveButton": "Guardar Tema"
-    }
-  },
+    "addButton": "Agregar Enlace",
+    "updateButton": "Actualizar Enlace",
+    "scheduleTitle": "Programación del Enlace",
+    "scheduleDescription": "Establece cuándo este enlace debe ser visible (opcional)",
+    "startDate": "Fecha y Hora de Inicio",
+    "endDate": "Fecha y Hora de Fin"
+   }
+ },
+ "profile": {
   "publicProfile": {
-    "notFound": {
-      "title": "Perfil No Encontrado",
-      "description": "El perfil que buscas no existe.",
-      "goHome": "Ir al Inicio"
+   "title": "Tu Perfil Público",
+   "description": "Comparte este enlace con tu audiencia",
+   "copyLink": "Copiar Enlace"
+  },
+  "information": {
+   "title": "Información del Perfil",
+   "subtitle": "Actualiza los detalles de tu perfil",
+   "displayName": "Nombre para Mostrar",
+   "username": "Nombre de Usuario",
+   "usernameHint": "El nombre de usuario no se puede cambiar",
+   "bio": "Biografía",
+   "bioPlaceholder": "Cuéntanos sobre ti...",
+   "bioHint": "{{count}}/500 caracteres",
+   "saveChanges": "Guardar Cambios"
+  },
+  "social": {
+   "title": "Enlaces Sociales",
+   "subtitle": "Conecta tus cuentas de redes sociales",
+   "saveButton": "Guardar Enlaces Sociales"
+  },
+  "avatar": {
+   "title": "Foto de Perfil",
+   "placeholder": "https://ejemplo.com/imagen.jpg",
+   "hint": "Ingresa una URL de imagen directa (jpg, png, gif, webp). Tamaño máx: 5MB",
+   "invalidUrl": "URL de imagen inválida. Por favor proporciona un enlace directo a una imagen",
+   "loadError": "Error al cargar la imagen",
+   "validating": "Validando imagen...",
+   "fixError": "Por favor corrige el error de la imagen antes de guardar"
+  },
+  "theme": {
+   "title": "Tema",
+   "subtitle": "Personaliza la apariencia de tu perfil",
+   "backgroundColor": "Color de Fondo",
+   "buttonColor": "Color de Botón",
+   "buttonTextColor": "Color de Texto del Botón",
+   "preview": "Vista Previa",
+   "sampleButton": "Botón de Ejemplo",
+   "saveButton": "Guardar Tema"
+  }
+ },
+  "publicProfile": {
+   "notFound": {
+    "title": "Perfil No Encontrado",
+    "description": "El perfil que buscas no existe.",
+    "goHome": "Ir al Inicio"
+   },
+   "createYourOwn": "Crea tu propio profl.ink"
+  },
+  "terms": {
+   "title": "Términos de Servicio",
+   "lastUpdated": "Última actualización: Febrero 2026",
+   "footerNote": "Al usar nuestro servicio, aceptas estos Términos de Servicio.",
+   "sections": {
+    "acceptance": {
+     "title": "1. Aceptación de los Términos",
+     "content": "Al acceder o usar profl.ink, aceptas estar sujeto a estos Términos de Servicio. Si no estás de acuerdo con estos términos, por favor no uses nuestro servicio."
     },
-    "createYourOwn": "Crea tu propio profl.ink"
+    "description": {
+     "title": "2. Descripción del Servicio",
+     "content": "profl.ink es una plataforma que permite a los usuarios crear páginas de enlaces personales para compartir sus perfiles sociales, sitios web y otros contenidos. Proporcionamos herramientas para personalización y análisis."
+    },
+    "accounts": {
+     "title": "3. Cuentas de Usuario",
+     "content": "Eres responsable de mantener la confidencialidad de las credenciales de tu cuenta y de todas las actividades que ocurran bajo tu cuenta. Debes proporcionar información precisa y completa al crear una cuenta."
+    },
+    "content": {
+     "title": "4. Contenido del Usuario",
+     "content": "Conservas la propiedad de cualquier contenido que publiques en profl.ink. Al publicar contenido, nos otorgas una licencia para mostrarlo y distribuirlo según sea necesario para proporcionar nuestros servicios."
+    },
+    "prohibited": {
+     "title": "5. Actividades Prohibidas",
+     "intro": "No puedes usar profl.ink para:",
+     "items": {
+      "illegal": "Participar en actividades ilegales",
+      "harmful": "Compartir contenido dañino, abusivo u ofensivo",
+      "infringement": "Infringir derechos de propiedad intelectual",
+      "spam": "Distribuir spam o malware",
+      "malware": "Intentar comprometer la seguridad de nuestro servicio"
+     }
+    },
+    "termination": {
+     "title": "6. Terminación",
+     "content": "Nos reservamos el derecho de terminar o suspender tu cuenta en cualquier momento por violaciones de estos términos o por cualquier otra razón a nuestra sola discreción."
+    },
+    "liability": {
+     "title": "7. Limitación de Responsabilidad",
+     "content": "profl.ink se proporciona 'tal cual' sin garantías de ningún tipo. No somos responsables de ningún daño derivado del uso de nuestro servicio."
+    },
+    "changes": {
+     "title": "8. Cambios en los Términos",
+     "content": "Podemos actualizar estos Términos de Servicio de vez en cuando. El uso continuado del servicio después de los cambios constituye la aceptación de los nuevos términos."
+    },
+    "contact": {
+     "title": "9. Contacto",
+     "content": "Si tienes alguna pregunta sobre estos Términos de Servicio, por favor contáctanos."
+    }
+   }
+  },
+  "privacy": {
+   "title": "Política de Privacidad",
+   "lastUpdated": "Última actualización: Febrero 2026",
+   "footerNote": "Tu privacidad es importante para nosotros. Por favor lee esta política cuidadosamente.",
+   "sections": {
+    "introduction": {
+     "title": "1. Introducción",
+     "content": "Esta Política de Privacidad explica cómo profl.ink recopila, usa y protege tu información personal cuando usas nuestro servicio."
+    },
+    "dataCollection": {
+     "title": "2. Información que Recopilamos",
+     "intro": "Recopilamos los siguientes tipos de información:",
+     "items": {
+      "email": "Dirección de correo electrónico",
+      "username": "Nombre de usuario y nombre para mostrar",
+      "profile": "Información del perfil y enlaces",
+      "usage": "Datos de uso y análisis"
+     }
+    },
+    "dataUse": {
+     "title": "3. Cómo Usamos tu Información",
+     "intro": "Usamos tu información para:",
+     "items": {
+      "service": "Proporcionar y mantener nuestros servicios",
+      "improvement": "Mejorar y personalizar tu experiencia",
+      "communication": "Comunicarnos contigo sobre actualizaciones",
+      "security": "Garantizar la seguridad y prevenir el fraude"
+     }
+    },
+    "dataSharing": {
+     "title": "4. Compartir Datos",
+     "content": "No vendemos tu información personal. Podemos compartir datos con proveedores de servicios que nos ayudan a operar nuestra plataforma, sujetos a obligaciones de confidencialidad."
+    },
+    "dataSecurity": {
+     "title": "5. Seguridad de Datos",
+     "content": "Implementamos medidas de seguridad apropiadas para proteger tu información personal contra el acceso no autorizado, alteración o destrucción."
+    },
+    "cookies": {
+     "title": "6. Cookies",
+     "content": "Usamos cookies y tecnologías similares para mejorar tu experiencia, analizar patrones de uso y recordar tus preferencias."
+    },
+    "rights": {
+     "title": "7. Tus Derechos",
+     "intro": "Tienes derecho a:",
+     "items": {
+      "access": "Acceder a tus datos personales",
+      "correction": "Solicitar correcciones a tus datos",
+      "deletion": "Solicitar la eliminación de tus datos",
+      "portability": "Exportar tus datos"
+     }
+    },
+    "changes": {
+     "title": "8. Cambios a esta Política",
+     "content": "Podemos actualizar esta Política de Privacidad de vez en cuando. Te notificaremos de cualquier cambio significativo."
+    },
+    "contact": {
+     "title": "9. Contáctanos",
+     "content": "Si tienes alguna pregunta sobre esta Política de Privacidad o nuestras prácticas de datos, por favor contáctanos."
+    }
+   }
   },
   "admin": {
-    "title": "Panel de Administración",
-    "subtitle": "Administra usuarios y ve estadísticas del sistema",
-    "refresh": "Actualizar",
-    "tabs": {
-      "overview": "Resumen",
-      "users": "Usuarios"
-    },
-    "stats": {
-      "totalUsers": "Usuarios Totales",
-      "activeUsers": "Usuarios Activos",
-      "totalLinks": "Enlaces Totales",
-      "activeLinks": "Enlaces Activos",
-      "clicksToday": "Clics Hoy"
-    },
-    "charts": {
-      "clicksTitle": "Clics (Últimos 30 Días)"
-    },
-    "topUsers": {
-      "title": "Usuarios Principales por Clics",
-      "noData": "Aún no hay datos"
-    },
-    "users": {
-      "searchPlaceholder": "Buscar usuarios por nombre o correo...",
-      "userColumn": "Usuario",
-      "statusColumn": "Estado",
-      "roleColumn": "Rol",
-      "joinedColumn": "Registrado",
-      "actionsColumn": "Acciones",
-      "noUsers": "No se encontraron usuarios",
-      "makeAdmin": "Hacer admin",
-      "removeAdmin": "Quitar admin",
-      "activate": "Activar",
-      "deactivate": "Desactivar",
-      "delete": "Eliminar usuario"
-    },
-    "pagination": {
-      "page": "Página {{current}} de {{total}}"
-    }
+  "title": "Panel de Administración",
+  "subtitle": "Administra usuarios y ve estadísticas del sistema",
+  "refresh": "Actualizar",
+  "tabs": {
+   "overview": "Resumen",
+   "users": "Usuarios"
   },
-  "errors": {
-    "generic": "Algo salió mal",
-    "loginFailed": "Error al iniciar sesión",
-    "registerFailed": "Error al registrarse",
-    "profileUpdateFailed": "Error al actualizar el perfil",
-    "linkCreateFailed": "Error al crear el enlace",
-    "linkUpdateFailed": "Error al actualizar el enlace",
-    "linkDeleteFailed": "Error al eliminar el enlace",
-    "loadLinksFailed": "Error al cargar los enlaces"
+  "stats": {
+   "totalUsers": "Usuarios Totales",
+   "activeUsers": "Usuarios Activos",
+   "totalLinks": "Enlaces Totales",
+   "activeLinks": "Enlaces Activos",
+   "clicksToday": "Clics Hoy"
   },
-  "success": {
-    "login": "¡Bienvenido de nuevo!",
-    "register": "¡Cuenta creada exitosamente!",
-    "logout": "Sesión cerrada exitosamente",
-    "profileUpdated": "Perfil actualizado exitosamente",
-    "linkCreated": "Enlace creado exitosamente",
-    "linkUpdated": "Enlace actualizado exitosamente",
-    "linkDeleted": "Enlace eliminado exitosamente",
-    "linkHidden": "Enlace oculto",
-    "linkVisible": "Enlace visible",
-    "linkCopied": "¡Enlace del perfil copiado!",
-    "adminStatusUpdated": "Estado de administrador actualizado",
-    "userStatusUpdated": "Estado de usuario actualizado",
-    "userDeleted": "Usuario eliminado exitosamente"
+  "charts": {
+   "clicksTitle": "Clics (Últimos 30 Días)"
+  },
+  "topUsers": {
+   "title": "Usuarios Principales por Clics",
+   "noData": "Aún no hay datos"
+  },
+  "users": {
+   "searchPlaceholder": "Buscar usuarios por nombre o correo...",
+   "userColumn": "Usuario",
+   "statusColumn": "Estado",
+   "roleColumn": "Rol",
+   "joinedColumn": "Registrado",
+   "actionsColumn": "Acciones",
+   "noUsers": "No se encontraron usuarios",
+   "makeAdmin": "Hacer admin",
+   "removeAdmin": "Quitar admin",
+   "activate": "Activar",
+   "deactivate": "Desactivar",
+   "delete": "Eliminar usuario"
+  },
+  "pagination": {
+   "page": "Página {{current}} de {{total}}"
+  }
+ },
+ "theme": {
+  "dark": "Modo oscuro",
+  "light": "Modo claro",
+  "switchToDark": "Cambiar a modo oscuro",
+  "switchToLight": "Cambiar a modo claro"
+ },
+ "errors": {
+  "generic": "Algo salió mal",
+  "loginFailed": "Error al iniciar sesión",
+  "registerFailed": "Error al registrarse",
+  "profileUpdateFailed": "Error al actualizar el perfil",
+  "linkCreateFailed": "Error al crear el enlace",
+   "linkUpdateFailed": "Error al actualizar el enlace",
+   "linkDeleteFailed": "Error al eliminar el enlace",
+   "loadLinksFailed": "Error al cargar los enlaces",
+   "linksReorderFailed": "Error al reordenar los enlaces"
+  },
+ "success": {
+  "login": "¡Bienvenido de nuevo!",
+  "register": "¡Cuenta creada exitosamente!",
+  "logout": "Sesión cerrada exitosamente",
+  "profileUpdated": "Perfil actualizado exitosamente",
+  "linkCreated": "Enlace creado exitosamente",
+  "linkUpdated": "Enlace actualizado exitosamente",
+  "linkDeleted": "Enlace eliminado exitosamente",
+   "linkHidden": "Enlace oculto",
+   "linkVisible": "Enlace visible",
+   "linkPinned": "Enlace fijado",
+   "linkUnpinned": "Enlace desfijado",
+   "linkCopied": "¡Enlace del perfil copiado!",
+   "adminStatusUpdated": "Estado de administrador actualizado",
+   "userStatusUpdated": "Estado de usuario actualizado",
+   "userDeleted": "Usuario eliminado exitosamente",
+   "linksReordered": "Enlaces reordenados exitosamente"
   }
 }

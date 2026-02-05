@@ -9,7 +9,16 @@ const getProfile = async (req, res) => {
       return res.status(404).json({ message: 'User not found' });
     }
 
-    const links = await Link.find({ user: user._id, isActive: true }).sort({ order: 1 });
+    const now = new Date();
+    const allLinks = await Link.find({ user: user._id, isActive: true }).sort({ isPinned: -1, order: 1 });
+    
+    // Filter links based on schedule
+    const links = allLinks.filter(link => {
+      // Check if link has scheduling
+      if (link.startDate && now < new Date(link.startDate)) return false;
+      if (link.endDate && now > new Date(link.endDate)) return false;
+      return true;
+    });
 
     res.json({
       user: {
@@ -24,7 +33,8 @@ const getProfile = async (req, res) => {
         id: link._id,
         title: link.title,
         url: link.url,
-        icon: link.icon
+        icon: link.icon,
+        isPinned: link.isPinned
       }))
     });
   } catch (error) {

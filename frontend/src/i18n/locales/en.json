@@ -1,252 +1,394 @@
 {
-  "common": {
-    "getStarted": "Get Started",
-    "signIn": "Sign In",
-    "signUp": "Sign Up",
-    "logout": "Logout",
-    "save": "Save",
+ "common": {
+  "getStarted": "Get Started",
+  "signIn": "Sign In",
+  "signUp": "Sign Up",
+  "logout": "Logout",
+  "save": "Save",
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "edit": "Edit",
+  "add": "Add",
+  "search": "Search",
+  "loading": "Loading...",
+  "copy": "Copy",
+  "copied": "Copied!",
+  "share": "Share",
+  "close": "Close",
+  "yes": "Yes",
+  "no": "No",
+  "confirmDelete": "Are you sure you want to delete this?",
+  "confirm": "Confirm",
+  "back": "Back",
+  "next": "Next",
+  "submit": "Submit",
+  "create": "Create",
+  "update": "Update",
+  "remove": "Remove",
+  "activate": "Activate",
+  "deactivate": "Deactivate",
+  "admin": "Admin",
+  "user": "User",
+  "active": "Active",
+  "inactive": "Inactive"
+ },
+ "navbar": {
+  "dashboard": "Dashboard",
+  "profile": "Profile",
+  "admin": "Admin",
+  "home": "Home",
+  "language": "Language",
+  "english": "English",
+  "spanish": "Spanish",
+  "arabic": "Arabic"
+ },
+ "home": {
+  "hero": {
+   "badge": "Free to use - No credit card required",
+   "title": "One link to",
+   "highlight": "share everything",
+   "description": "Create your personal link hub in minutes. Share your social profiles, websites, and content with a single, beautiful link.",
+   "getStarted": "Get Started Free",
+   "viewDemo": "View Demo"
+  },
+  "features": {
+   "title": "Everything you need",
+   "subtitle": "Powerful features to help you share and grow",
+   "fast": {
+    "title": "Lightning Fast",
+    "description": "Create your profile in seconds and start sharing your links instantly."
+   },
+   "customizable": {
+    "title": "Customizable",
+    "description": "Personalize your profile with custom themes, colors, and styling options."
+   },
+   "analytics": {
+    "title": "Analytics",
+    "description": "Track clicks and engagement with detailed analytics for all your links."
+   },
+   "secure": {
+    "title": "Secure",
+    "description": "Your data is protected with industry-standard security measures."
+   }
+  },
+  "cta": {
+   "title": "Ready to share your world?",
+   "description": "Join thousands of creators, influencers, and businesses who trust profl.ink.",
+   "button": "Create Your Profile"
+  },
+   "footer": {
+    "copyright": "© 2026 profl.ink. Built with MERN Stack.",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy"
+   }
+ },
+ "login": {
+  "title": "Welcome back",
+  "subtitle": "Don't have an account?",
+  "signUpLink": "Sign up",
+  "email": "Email address",
+  "emailPlaceholder": "you@example.com",
+  "password": "Password",
+  "passwordPlaceholder": "••••••••",
+  "signInButton": "Sign in",
+  "demoCredentials": "Demo credentials",
+  "adminDemo": "Admin: admin@linktree.com / admin123"
+ },
+ "register": {
+  "title": "Create your account",
+  "subtitle": "Already have an account?",
+  "signInLink": "Sign in",
+  "email": "Email address",
+  "emailPlaceholder": "you@example.com",
+  "username": "Username",
+  "usernamePlaceholder": "johndoe",
+  "usernameHint": "Your profile will be at /u/username",
+  "displayName": "Display Name (optional)",
+  "displayNamePlaceholder": "John Doe",
+  "password": "Password",
+  "passwordPlaceholder": "••••••••",
+  "passwordHint": "Must be at least 6 characters",
+  "createButton": "Create account",
+  "terms": "By creating an account, you agree to our Terms of Service and Privacy Policy"
+ },
+ "dashboard": {
+  "stats": {
+   "totalLinks": "Total Links",
+   "activeLinks": "Active Links",
+   "totalClicks": "Total Clicks",
+   "yourProfile": "Your Profile",
+   "copyLink": "Copy Link"
+  },
+   "links": {
+    "title": "Your Links",
+    "subtitle": "Manage and organize your shared links",
+    "addLink": "Add Link",
+    "noLinks": "No links yet",
+    "noLinksDescription": "Add your first link to get started",
+    "addFirstLink": "Add Your First Link",
+    "clicks": "clicks",
+    "hide": "Hide link",
+    "show": "Show link",
+    "edit": "Edit link",
+    "delete": "Delete link",
+    "pin": "Pin link",
+    "unpin": "Unpin link",
+    "hidden": "Hidden",
+    "scheduledHidden": "Scheduled",
+    "from": "From",
+    "to": "to"
+   },
+  "modal": {
+    "addTitle": "Add New Link",
+    "editTitle": "Edit Link",
+    "titleLabel": "Title",
+    "titlePlaceholder": "My Website",
+    "urlLabel": "URL",
+    "urlPlaceholder": "https://example.com",
+    "iconLabel": "Icon",
     "cancel": "Cancel",
-    "delete": "Delete",
-    "edit": "Edit",
-    "add": "Add",
-    "search": "Search",
-    "loading": "Loading...",
-    "copy": "Copy",
-    "copied": "Copied!",
-    "share": "Share",
-    "close": "Close",
-    "yes": "Yes",
-    "no": "No",
-    "confirmDelete": "Are you sure you want to delete this?",
-    "confirm": "Confirm",
-    "back": "Back",
-    "next": "Next",
-    "submit": "Submit",
-    "create": "Create",
-    "update": "Update",
-    "remove": "Remove",
-    "activate": "Activate",
-    "deactivate": "Deactivate",
-    "admin": "Admin",
-    "user": "User",
-    "active": "Active",
-    "inactive": "Inactive"
-  },
-  "navbar": {
-    "dashboard": "Dashboard",
-    "profile": "Profile",
-    "admin": "Admin",
-    "home": "Home",
-    "language": "Language",
-    "english": "English",
-    "spanish": "Spanish",
-    "arabic": "Arabic"
-  },
-  "home": {
-    "hero": {
-      "badge": "Free to use - No credit card required",
-      "title": "One link to",
-      "highlight": "share everything",
-      "description": "Create your personal link hub in minutes. Share your social profiles, websites, and content with a single, beautiful link.",
-      "getStarted": "Get Started Free",
-      "viewDemo": "View Demo"
-    },
-    "features": {
-      "title": "Everything you need",
-      "subtitle": "Powerful features to help you share and grow",
-      "fast": {
-        "title": "Lightning Fast",
-        "description": "Create your profile in seconds and start sharing your links instantly."
-      },
-      "customizable": {
-        "title": "Customizable",
-        "description": "Personalize your profile with custom themes, colors, and styling options."
-      },
-      "analytics": {
-        "title": "Analytics",
-        "description": "Track clicks and engagement with detailed analytics for all your links."
-      },
-      "secure": {
-        "title": "Secure",
-        "description": "Your data is protected with industry-standard security measures."
-      }
-    },
-    "cta": {
-      "title": "Ready to share your world?",
-        "description": "Join thousands of creators, influencers, and businesses who trust profl.ink.",
-      "button": "Create Your Profile"
-    },
-    "footer": {
-        "copyright": "© 2024 profl.ink. Built with MERN Stack."
-    }
-  },
-  "login": {
-    "title": "Welcome back",
-    "subtitle": "Don't have an account?",
-    "signUpLink": "Sign up",
-    "email": "Email address",
-    "emailPlaceholder": "you@example.com",
-    "password": "Password",
-    "passwordPlaceholder": "••••••••",
-    "signInButton": "Sign in",
-    "demoCredentials": "Demo credentials",
-    "adminDemo": "Admin: admin@linktree.com / admin123"
-  },
-  "register": {
-    "title": "Create your account",
-    "subtitle": "Already have an account?",
-    "signInLink": "Sign in",
-    "email": "Email address",
-    "emailPlaceholder": "you@example.com",
-    "username": "Username",
-    "usernamePlaceholder": "johndoe",
-    "usernameHint": "Your profile will be at /u/username",
-    "displayName": "Display Name (optional)",
-    "displayNamePlaceholder": "John Doe",
-    "password": "Password",
-    "passwordPlaceholder": "••••••••",
-    "passwordHint": "Must be at least 6 characters",
-    "createButton": "Create account",
-    "terms": "By creating an account, you agree to our Terms of Service and Privacy Policy"
-  },
-  "dashboard": {
-    "stats": {
-      "totalLinks": "Total Links",
-      "activeLinks": "Active Links",
-      "totalClicks": "Total Clicks",
-      "yourProfile": "Your Profile",
-      "copyLink": "Copy Link"
-    },
-    "links": {
-      "title": "Your Links",
-      "subtitle": "Manage and organize your shared links",
-      "addLink": "Add Link",
-      "noLinks": "No links yet",
-      "noLinksDescription": "Add your first link to get started",
-      "addFirstLink": "Add Your First Link",
-      "clicks": "clicks",
-      "hide": "Hide link",
-      "show": "Show link",
-      "edit": "Edit link",
-      "delete": "Delete link"
-    },
-    "modal": {
-      "addTitle": "Add New Link",
-      "editTitle": "Edit Link",
-      "titleLabel": "Title",
-      "titlePlaceholder": "My Website",
-      "urlLabel": "URL",
-      "urlPlaceholder": "https://example.com",
-      "iconLabel": "Icon",
-      "cancel": "Cancel",
-      "addButton": "Add Link",
-      "updateButton": "Update Link"
-    }
-  },
-  "profile": {
-    "publicProfile": {
-      "title": "Your Public Profile",
-      "description": "Share this link with your audience",
-      "copyLink": "Copy Link"
-    },
-    "information": {
-      "title": "Profile Information",
-      "subtitle": "Update your profile details",
-      "displayName": "Display Name",
-      "username": "Username",
-      "usernameHint": "Username cannot be changed",
-      "bio": "Bio",
-      "bioPlaceholder": "Tell us about yourself...",
-      "bioHint": "{{count}}/500 characters",
-      "saveChanges": "Save Changes"
-    },
-    "social": {
-      "title": "Social Links",
-      "subtitle": "Connect your social media accounts",
-      "saveButton": "Save Social Links"
-    },
-    "theme": {
-      "title": "Theme",
-      "subtitle": "Customize your profile appearance",
-      "backgroundColor": "Background Color",
-      "buttonColor": "Button Color",
-      "buttonTextColor": "Button Text Color",
-      "preview": "Preview",
-      "sampleButton": "Sample Button",
-      "saveButton": "Save Theme"
-    }
-  },
+    "addButton": "Add Link",
+    "updateButton": "Update Link",
+    "scheduleTitle": "Link Schedule",
+    "scheduleDescription": "Set when this link should be visible (optional)",
+    "startDate": "Start Date & Time",
+    "endDate": "End Date & Time"
+   }
+ },
+ "profile": {
   "publicProfile": {
-    "notFound": {
-      "title": "Profile Not Found",
-      "description": "The profile you're looking for doesn't exist.",
-      "goHome": "Go Home"
-    },
-    "createYourOwn": "Create your own profl.ink"
+   "title": "Your Public Profile",
+   "description": "Share this link with your audience",
+   "copyLink": "Copy Link"
   },
-  "admin": {
-    "title": "Admin Dashboard",
-    "subtitle": "Manage users and view system statistics",
-    "refresh": "Refresh",
-    "tabs": {
-      "overview": "Overview",
-      "users": "Users"
+  "information": {
+   "title": "Profile Information",
+   "subtitle": "Update your profile details",
+   "displayName": "Display Name",
+   "username": "Username",
+   "usernameHint": "Username cannot be changed",
+   "bio": "Bio",
+   "bioPlaceholder": "Tell us about yourself...",
+   "bioHint": "{{count}}/500 characters",
+   "saveChanges": "Save Changes"
+  },
+  "social": {
+   "title": "Social Links",
+   "subtitle": "Connect your social media accounts",
+   "saveButton": "Save Social Links"
+  },
+  "avatar": {
+   "title": "Profile Picture",
+   "placeholder": "https://example.com/image.jpg",
+   "hint": "Enter a direct image URL (jpg, png, gif, webp). Max size: 5MB",
+   "invalidUrl": "Invalid image URL. Please provide a direct link to an image",
+   "loadError": "Failed to load image",
+   "validating": "Validating image...",
+   "fixError": "Please fix the avatar error before saving"
+  },
+  "theme": {
+   "title": "Theme",
+   "subtitle": "Customize your profile appearance",
+   "backgroundColor": "Background Color",
+   "buttonColor": "Button Color",
+   "buttonTextColor": "Button Text Color",
+   "preview": "Preview",
+   "sampleButton": "Sample Button",
+   "saveButton": "Save Theme"
+  }
+ },
+  "publicProfile": {
+   "notFound": {
+    "title": "Profile Not Found",
+    "description": "The profile you're looking for doesn't exist.",
+    "goHome": "Go Home"
+   },
+   "createYourOwn": "Create your own profl.ink"
+  },
+  "terms": {
+   "title": "Terms of Service",
+   "lastUpdated": "Last updated: February 2026",
+   "footerNote": "By using our service, you agree to these Terms of Service.",
+   "sections": {
+    "acceptance": {
+     "title": "1. Acceptance of Terms",
+     "content": "By accessing or using profl.ink, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our service."
     },
-    "stats": {
-      "totalUsers": "Total Users",
-      "activeUsers": "Active Users",
-      "totalLinks": "Total Links",
-      "activeLinks": "Active Links",
-      "clicksToday": "Clicks Today"
+    "description": {
+     "title": "2. Service Description",
+     "content": "profl.ink is a platform that allows users to create personal link pages to share their social profiles, websites, and other content. We provide tools for customization and analytics."
     },
-    "charts": {
-      "clicksTitle": "Clicks (Last 30 Days)"
+    "accounts": {
+     "title": "3. User Accounts",
+     "content": "You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account. You must provide accurate and complete information when creating an account."
     },
-    "topUsers": {
-      "title": "Top Users by Clicks",
-      "noData": "No data yet"
+    "content": {
+     "title": "4. User Content",
+     "content": "You retain ownership of any content you post on profl.ink. By posting content, you grant us a license to display and distribute it as necessary to provide our services."
     },
-    "users": {
-      "searchPlaceholder": "Search users by username or email...",
-      "userColumn": "User",
-      "statusColumn": "Status",
-      "roleColumn": "Role",
-      "joinedColumn": "Joined",
-      "actionsColumn": "Actions",
-      "noUsers": "No users found",
-      "makeAdmin": "Make admin",
-      "removeAdmin": "Remove admin",
-      "activate": "Activate",
-      "deactivate": "Deactivate",
-      "delete": "Delete user"
+    "prohibited": {
+     "title": "5. Prohibited Activities",
+     "intro": "You may not use profl.ink to:",
+     "items": {
+      "illegal": "Engage in illegal activities",
+      "harmful": "Share harmful, abusive, or offensive content",
+      "infringement": "Infringe on intellectual property rights",
+      "spam": "Distribute spam or malware",
+      "malware": "Attempt to compromise the security of our service"
+     }
     },
-    "pagination": {
-      "page": "Page {{current}} of {{total}}"
+    "termination": {
+     "title": "6. Termination",
+     "content": "We reserve the right to terminate or suspend your account at any time for violations of these terms or for any other reason at our sole discretion."
+    },
+    "liability": {
+     "title": "7. Limitation of Liability",
+     "content": "profl.ink is provided 'as is' without warranties of any kind. We are not liable for any damages arising from your use of our service."
+    },
+    "changes": {
+     "title": "8. Changes to Terms",
+     "content": "We may update these Terms of Service from time to time. Continued use of the service after changes constitutes acceptance of the new terms."
+    },
+    "contact": {
+     "title": "9. Contact",
+     "content": "If you have any questions about these Terms of Service, please contact us."
     }
+   }
   },
-  "errors": {
-    "generic": "Something went wrong",
-    "loginFailed": "Login failed",
-    "registerFailed": "Registration failed",
-    "profileUpdateFailed": "Failed to update profile",
-    "linkCreateFailed": "Failed to create link",
-    "linkUpdateFailed": "Failed to update link",
-    "linkDeleteFailed": "Failed to delete link",
-    "loadLinksFailed": "Failed to load links"
+  "privacy": {
+   "title": "Privacy Policy",
+   "lastUpdated": "Last updated: February 2026",
+   "footerNote": "Your privacy is important to us. Please read this policy carefully.",
+   "sections": {
+    "introduction": {
+     "title": "1. Introduction",
+     "content": "This Privacy Policy explains how profl.ink collects, uses, and protects your personal information when you use our service."
+    },
+    "dataCollection": {
+     "title": "2. Information We Collect",
+     "intro": "We collect the following types of information:",
+     "items": {
+      "email": "Email address",
+      "username": "Username and display name",
+      "profile": "Profile information and links",
+      "usage": "Usage data and analytics"
+     }
+    },
+    "dataUse": {
+     "title": "3. How We Use Your Information",
+     "intro": "We use your information to:",
+     "items": {
+      "service": "Provide and maintain our services",
+      "improvement": "Improve and personalize your experience",
+      "communication": "Communicate with you about updates",
+      "security": "Ensure security and prevent fraud"
+     }
+    },
+    "dataSharing": {
+     "title": "4. Data Sharing",
+     "content": "We do not sell your personal information. We may share data with service providers who assist us in operating our platform, subject to confidentiality obligations."
+    },
+    "dataSecurity": {
+     "title": "5. Data Security",
+     "content": "We implement appropriate security measures to protect your personal information from unauthorized access, alteration, or destruction."
+    },
+    "cookies": {
+     "title": "6. Cookies",
+     "content": "We use cookies and similar technologies to enhance your experience, analyze usage patterns, and remember your preferences."
+    },
+    "rights": {
+     "title": "7. Your Rights",
+     "intro": "You have the right to:",
+     "items": {
+      "access": "Access your personal data",
+      "correction": "Request corrections to your data",
+      "deletion": "Request deletion of your data",
+      "portability": "Export your data"
+     }
+    },
+    "changes": {
+     "title": "8. Changes to This Policy",
+     "content": "We may update this Privacy Policy from time to time. We will notify you of any significant changes."
+    },
+    "contact": {
+     "title": "9. Contact Us",
+     "content": "If you have any questions about this Privacy Policy or our data practices, please contact us."
+    }
+   }
   },
-  "success": {
-    "login": "Welcome back!",
-    "register": "Account created successfully!",
-    "logout": "Logged out successfully",
-    "profileUpdated": "Profile updated successfully",
-    "linkCreated": "Link created successfully",
-    "linkUpdated": "Link updated successfully",
-    "linkDeleted": "Link deleted successfully",
-    "linkHidden": "Link hidden",
-    "linkVisible": "Link visible",
-    "linkCopied": "Profile link copied!",
-    "adminStatusUpdated": "User admin status updated",
-    "userStatusUpdated": "User status updated",
-    "userDeleted": "User deleted successfully"
+ "admin": {
+  "title": "Admin Dashboard",
+  "subtitle": "Manage users and view system statistics",
+  "refresh": "Refresh",
+  "tabs": {
+   "overview": "Overview",
+   "users": "Users"
+  },
+  "stats": {
+   "totalUsers": "Total Users",
+   "activeUsers": "Active Users",
+   "totalLinks": "Total Links",
+   "activeLinks": "Active Links",
+   "clicksToday": "Clicks Today"
+  },
+  "charts": {
+   "clicksTitle": "Clicks (Last 30 Days)"
+  },
+  "topUsers": {
+   "title": "Top Users by Clicks",
+   "noData": "No data yet"
+  },
+  "users": {
+   "searchPlaceholder": "Search users by username or email...",
+   "userColumn": "User",
+   "statusColumn": "Status",
+   "roleColumn": "Role",
+   "joinedColumn": "Joined",
+   "actionsColumn": "Actions",
+   "noUsers": "No users found",
+   "makeAdmin": "Make admin",
+   "removeAdmin": "Remove admin",
+   "activate": "Activate",
+   "deactivate": "Deactivate",
+   "delete": "Delete user"
+  },
+  "pagination": {
+   "page": "Page {{current}} of {{total}}"
+  }
+ },
+ "theme": {
+  "dark": "Dark mode",
+  "light": "Light mode",
+  "switchToDark": "Switch to dark mode",
+  "switchToLight": "Switch to light mode"
+ },
+ "errors": {
+  "generic": "Something went wrong",
+  "loginFailed": "Login failed",
+  "registerFailed": "Registration failed",
+  "profileUpdateFailed": "Failed to update profile",
+  "linkCreateFailed": "Failed to create link",
+   "linkUpdateFailed": "Failed to update link",
+   "linkDeleteFailed": "Failed to delete link",
+   "loadLinksFailed": "Failed to load links",
+   "linksReorderFailed": "Failed to reorder links"
+  },
+ "success": {
+  "login": "Welcome back!",
+  "register": "Account created successfully!",
+  "logout": "Logged out successfully",
+  "profileUpdated": "Profile updated successfully",
+  "linkCreated": "Link created successfully",
+  "linkUpdated": "Link updated successfully",
+  "linkDeleted": "Link deleted successfully",
+   "linkHidden": "Link hidden",
+   "linkVisible": "Link visible",
+   "linkPinned": "Link pinned",
+   "linkUnpinned": "Link unpinned",
+   "linkCopied": "Profile link copied!",
+   "adminStatusUpdated": "User admin status updated",
+   "userStatusUpdated": "User status updated",
+   "userDeleted": "User deleted successfully",
+   "linksReordered": "Links reordered successfully"
   }
 }

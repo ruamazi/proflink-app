@@ -12,7 +12,7 @@ const getMyLinks = async (req, res) => {
 
 const createLink = async (req, res) => {
   try {
-    const { title, url, icon } = req.body;
+    const { title, url, icon, startDate, endDate } = req.body;
     
     const linkCount = await Link.countDocuments({ user: req.user.id });
     
@@ -21,7 +21,9 @@ const createLink = async (req, res) => {
       title,
       url,
       icon: icon || 'link',
-      order: linkCount
+      order: linkCount,
+      startDate: startDate || null,
+      endDate: endDate || null
     });
 
     res.status(201).json({
@@ -35,7 +37,7 @@ const createLink = async (req, res) => {
 
 const updateLink = async (req, res) => {
   try {
-    const { title, url, icon, isActive } = req.body;
+    const { title, url, icon, isActive, isPinned, startDate, endDate } = req.body;
     
     const link = await Link.findOne({ _id: req.params.id, user: req.user.id });
     
@@ -47,6 +49,9 @@ const updateLink = async (req, res) => {
     link.url = url || link.url;
     link.icon = icon || link.icon;
     if (typeof isActive !== 'undefined') link.isActive = isActive;
+    if (typeof isPinned !== 'undefined') link.isPinned = isPinned;
+    if (typeof startDate !== 'undefined') link.startDate = startDate || null;
+    if (typeof endDate !== 'undefined') link.endDate = endDate || null;
     
     await link.save();
 

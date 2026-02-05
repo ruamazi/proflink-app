@@ -50,6 +50,10 @@ body {
  background: #f1f1f1;
 }
 
+.dark ::-webkit-scrollbar-track {
+ background: #1f2937;
+}
+
 ::-webkit-scrollbar-thumb {
  background: #888;
  border-radius: 4px;
@@ -57,6 +61,14 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
  background: #555;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+ background: #4b5563;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+ background: #6b7280;
 }
 
 /* Animations */

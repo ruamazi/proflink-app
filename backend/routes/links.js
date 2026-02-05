@@ -18,16 +18,17 @@ router.post('/', protect, [
   body('url').trim().isURL().withMessage('Valid URL is required')
 ], createLink);
 
+// Static routes must come BEFORE dynamic parameter routes
+router.put('/reorder', protect, [
+  body('linkIds').isArray().withMessage('linkIds must be an array')
+], reorderLinks);
+
 router.put('/:id', protect, [
   body('title').optional().trim(),
   body('url').optional().trim().isURL()
 ], updateLink);
 
 router.delete('/:id', protect, deleteLink);
-
-router.put('/reorder', protect, [
-  body('linkIds').isArray().withMessage('linkIds must be an array')
-], reorderLinks);
 
 router.post('/:linkId/click', trackClick);
 
