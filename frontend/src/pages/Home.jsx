@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import { LOGO_URL } from '../App';
 import { Zap, Shield, Palette, BarChart3, ArrowRight } from 'lucide-react';
 
 const Home = () => {
@@ -116,7 +117,7 @@ const Home = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center mb-4 md:mb-0">
               <img
-                src="/logo.png"
+                src={LOGO_URL}
                 alt="Logo"
                 className="h-8 w-auto"
               />

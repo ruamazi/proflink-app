@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useAuth } from '../context/AuthContext';
+import { LOGO_URL } from '../App';
 import { Mail, Lock, User, Eye, EyeOff, ArrowRight } from 'lucide-react';
 
 const Register = () => {
@@ -33,7 +34,7 @@ const Register = () => {
         <div className="text-center">
           <div className="flex justify-center">
             <img
-              src="/logo.png"
+              src={LOGO_URL}
               alt="Logo"
               className="h-16 w-auto"
             />

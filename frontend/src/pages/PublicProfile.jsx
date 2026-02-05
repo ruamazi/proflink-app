@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { userAPI, linkAPI } from "../api";
+import { LOGO_URL } from "../App";
 import {
  User,
  Instagram,
@@ -249,7 +250,7 @@ const PublicProfile = () => {
       href="/"
       className="inline-flex items-center text-gray-400 dark:text-gray-500 hover:text-gray-600 dark:hover:text-gray-400 transition-colors bg-black px-3 py-1 rounded-full gap-2"
      >
-      <img src="/logo.png" alt="Logo" className="h-4 w-auto" />
+      <img src={LOGO_URL} alt="Logo" className="h-4 w-auto" />
       <span className="text-sm">{t("publicProfile.createYourOwn")}</span>
      </a>
     </div>

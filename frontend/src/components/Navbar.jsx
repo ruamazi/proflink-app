@@ -2,6 +2,7 @@ import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { useAuth } from "../context/AuthContext";
+import { LOGO_URL } from "../App";
 import LanguageSwitcher from "./LanguageSwitcher";
 import ThemeToggle from "./ThemeToggle";
 import { Menu, X, User, LayoutDashboard, Shield, LogOut } from "lucide-react";
@@ -24,7 +25,7 @@ const Navbar = () => {
     <div className="flex justify-between h-16">
      <div className="flex items-center">
       <Link to="/" className="flex items-center">
-        <img src="/logo.png" alt="Logo" className="h-8 w-auto" />
+        <img src={LOGO_URL} alt="Logo" className="h-8 w-auto" />
       </Link>
      </div>
 
