@@ -1,0 +1,252 @@
+{
+  "common": {
+    "getStarted": "ابدأ الآن",
+    "signIn": "تسجيل الدخول",
+    "signUp": "إنشاء حساب",
+    "logout": "تسجيل الخروج",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "add": "إضافة",
+    "search": "بحث",
+    "loading": "جاري التحميل...",
+    "copy": "نسخ",
+    "copied": "تم النسخ!",
+    "share": "مشاركة",
+    "close": "إغلاق",
+    "yes": "نعم",
+    "no": "لا",
+    "confirmDelete": "هل أنت متأكد أنك تريد حذف هذا؟",
+    "confirm": "تأكيد",
+    "back": "رجوع",
+    "next": "التالي",
+    "submit": "إرسال",
+    "create": "إنشاء",
+    "update": "تحديث",
+    "remove": "إزالة",
+    "activate": "تفعيل",
+    "deactivate": "تعطيل",
+    "admin": "مدير",
+    "user": "مستخدم",
+    "active": "نشط",
+    "inactive": "غير نشط"
+  },
+  "navbar": {
+    "dashboard": "لوحة التحكم",
+    "profile": "الملف الشخصي",
+    "admin": "الإدارة",
+    "home": "الرئيسية",
+    "language": "اللغة",
+    "english": "الإنجليزية",
+    "spanish": "الإسبانية",
+    "arabic": "العربية"
+  },
+  "home": {
+    "hero": {
+      "badge": "مجاني - لا يحتاج بطاقة ائتمان",
+      "title": "رابط واحد",
+      "highlight": "يشارك كل شيء",
+      "description": "أنشئ صفحتك الشخصية في دقائق. شارك حساباتك الاجتماعية ومواقعك ومحتواك في رابط واحد جميل.",
+      "getStarted": "ابدأ مجاناً",
+      "viewDemo": "شاهد العرض"
+    },
+    "features": {
+      "title": "كل ما تحتاجه",
+      "subtitle": "ميزات قوية تساعدك على المشاركة والنمو",
+      "fast": {
+        "title": "سريع جداً",
+        "description": "أنشئ ملفك الشخصي في ثوانٍ وابدأ بمشاركة روابطك على الفور."
+      },
+      "customizable": {
+        "title": "قابل للتخصيص",
+        "description": "خصص ملفك الشخصي بألوان وسمات وتنسيقات مخصصة."
+      },
+      "analytics": {
+        "title": "التحليلات",
+        "description": "تتبع النقرات والتفاعل مع تحليلات مفصلة لجميع روابطك."
+      },
+      "secure": {
+        "title": "آمن",
+        "description": "بياناتك محمية بإجراءات أمان على مستوى الصناعة."
+      }
+    },
+    "cta": {
+      "title": "مستعد لمشاركة عالمك؟",
+        "description": "انضم إلى آلاف المنشئين والمؤثرين والشركات التي تثق بـ profl.ink.",
+      "button": "أنشئ ملفك الشخصي"
+    },
+    "footer": {
+        "copyright": "© 2024 profl.ink. مبني باستخدام MERN Stack."
+    }
+  },
+  "login": {
+    "title": "مرحباً بعودتك",
+    "subtitle": "ليس لديك حساب؟",
+    "signUpLink": "سجل الآن",
+    "email": "البريد الإلكتروني",
+    "emailPlaceholder": "أنت@مثال.com",
+    "password": "كلمة المرور",
+    "passwordPlaceholder": "••••••••",
+    "signInButton": "تسجيل الدخول",
+    "demoCredentials": "بيانات العرض التوضيحي",
+    "adminDemo": "المشرف: admin@linktree.com / admin123"
+  },
+  "register": {
+    "title": "إنشاء حساب جديد",
+    "subtitle": "لديك حساب بالفعل؟",
+    "signInLink": "تسجيل الدخول",
+    "email": "البريد الإلكتروني",
+    "emailPlaceholder": "أنت@مثال.com",
+    "username": "اسم المستخدم",
+    "usernamePlaceholder": "اسمك",
+    "usernameHint": "سيكون ملفك الشخصي على /u/اسم-المستخدم",
+    "displayName": "الاسم المعروض (اختياري)",
+    "displayNamePlaceholder": "محمد أحمد",
+    "password": "كلمة المرور",
+    "passwordPlaceholder": "••••••••",
+    "passwordHint": "يجب أن تكون 6 أحرف على الأقل",
+    "createButton": "إنشاء حساب",
+    "terms": "بإنشاء حساب، فإنك توافق على شروط الخدمة وسياسة الخصوصية"
+  },
+  "dashboard": {
+    "stats": {
+      "totalLinks": "إجمالي الروابط",
+      "activeLinks": "الروابط النشطة",
+      "totalClicks": "إجمالي النقرات",
+      "yourProfile": "ملفك الشخصي",
+      "copyLink": "نسخ الرابط"
+    },
+    "links": {
+      "title": "روابطك",
+      "subtitle": "إدارة وتنظيم روابطك المشتركة",
+      "addLink": "إضافة رابط",
+      "noLinks": "لا توجد روابط بعد",
+      "noLinksDescription": "أضف رابطك الأول للبدء",
+      "addFirstLink": "أضف رابطك الأول",
+      "clicks": "نقرة",
+      "hide": "إخفاء الرابط",
+      "show": "إظهار الرابط",
+      "edit": "تعديل الرابط",
+      "delete": "حذف الرابط"
+    },
+    "modal": {
+      "addTitle": "إضافة رابط جديد",
+      "editTitle": "تعديل الرابط",
+      "titleLabel": "العنوان",
+      "titlePlaceholder": "موقعي الإلكتروني",
+      "urlLabel": "الرابط",
+      "urlPlaceholder": "https://example.com",
+      "iconLabel": "الأيقونة",
+      "cancel": "إلغاء",
+      "addButton": "إضافة رابط",
+      "updateButton": "تحديث الرابط"
+    }
+  },
+  "profile": {
+    "publicProfile": {
+      "title": "ملفك الشخصي العام",
+      "description": "شارك هذا الرابط مع جمهورك",
+      "copyLink": "نسخ الرابط"
+    },
+    "information": {
+      "title": "معلومات الملف الشخصي",
+      "subtitle": "تحديث تفاصيل ملفك الشخصي",
+      "displayName": "الاسم المعروض",
+      "username": "اسم المستخدم",
+      "usernameHint": "لا يمكن تغيير اسم المستخدم",
+      "bio": "نبذة تعريفية",
+      "bioPlaceholder": "أخبرنا عن نفسك...",
+      "bioHint": "{{count}}/500 حرف",
+      "saveChanges": "حفظ التغييرات"
+    },
+    "social": {
+      "title": "روابط التواصل الاجتماعي",
+      "subtitle": "ربط حسابات التواصل الاجتماعي الخاصة بك",
+      "saveButton": "حفظ روابط التواصل"
+    },
+    "theme": {
+      "title": "السمة",
+      "subtitle": "تخصيص مظهر ملفك الشخصي",
+      "backgroundColor": "لون الخلفية",
+      "buttonColor": "لون الزر",
+      "buttonTextColor": "لون نص الزر",
+      "preview": "معاينة",
+      "sampleButton": "زر تجريبي",
+      "saveButton": "حفظ السمة"
+    }
+  },
+  "publicProfile": {
+    "notFound": {
+      "title": "الملف الشخصي غير موجود",
+      "description": "الملف الشخصي الذي تبحث عنه غير موجود.",
+      "goHome": "العودة للرئيسية"
+    },
+    "createYourOwn": "أنشئ profl.ink خاص بك"
+  },
+  "admin": {
+    "title": "لوحة تحكم المشرف",
+    "subtitle": "إدارة المستخدمين وعرض إحصائيات النظام",
+    "refresh": "تحديث",
+    "tabs": {
+      "overview": "نظرة عامة",
+      "users": "المستخدمون"
+    },
+    "stats": {
+      "totalUsers": "إجمالي المستخدمين",
+      "activeUsers": "المستخدمون النشطون",
+      "totalLinks": "إجمالي الروابط",
+      "activeLinks": "الروابط النشطة",
+      "clicksToday": "النقرات اليوم"
+    },
+    "charts": {
+      "clicksTitle": "النقرات (آخر 30 يوم)"
+    },
+    "topUsers": {
+      "title": "أفضل المستخدمين حسب النقرات",
+      "noData": "لا توجد بيانات بعد"
+    },
+    "users": {
+      "searchPlaceholder": "البحث في المستخدمين بالاسم أو البريد...",
+      "userColumn": "المستخدم",
+      "statusColumn": "الحالة",
+      "roleColumn": "الدور",
+      "joinedColumn": "تاريخ التسجيل",
+      "actionsColumn": "الإجراءات",
+      "noUsers": "لم يتم العثور على مستخدمين",
+      "makeAdmin": "جعله مشرفاً",
+      "removeAdmin": "إزالة الصلاحية",
+      "activate": "تفعيل",
+      "deactivate": "تعطيل",
+      "delete": "حذف المستخدم"
+    },
+    "pagination": {
+      "page": "صفحة {{current}} من {{total}}"
+    }
+  },
+  "errors": {
+    "generic": "حدث خطأ ما",
+    "loginFailed": "فشل تسجيل الدخول",
+    "registerFailed": "فشل إنشاء الحساب",
+    "profileUpdateFailed": "فشل تحديث الملف الشخصي",
+    "linkCreateFailed": "فشل إنشاء الرابط",
+    "linkUpdateFailed": "فشل تحديث الرابط",
+    "linkDeleteFailed": "فشل حذف الرابط",
+    "loadLinksFailed": "فشل تحميل الروابط"
+  },
+  "success": {
+    "login": "مرحباً بعودتك!",
+    "register": "تم إنشاء الحساب بنجاح!",
+    "logout": "تم تسجيل الخروج بنجاح",
+    "profileUpdated": "تم تحديث الملف الشخصي بنجاح",
+    "linkCreated": "تم إنشاء الرابط بنجاح",
+    "linkUpdated": "تم تحديث الرابط بنجاح",
+    "linkDeleted": "تم حذف الرابط بنجاح",
+    "linkHidden": "تم إخفاء الرابط",
+    "linkVisible": "تم إظهار الرابط",
+    "linkCopied": "تم نسخ رابط الملف الشخصي!",
+    "adminStatusUpdated": "تم تحديث حالة المشرف",
+    "userStatusUpdated": "تم تحديث حالة المستخدم",
+    "userDeleted": "تم حذف المستخدم بنجاح"
+  }
+}

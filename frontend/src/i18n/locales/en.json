@@ -1,0 +1,252 @@
+{
+  "common": {
+    "getStarted": "Get Started",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "logout": "Logout",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "search": "Search",
+    "loading": "Loading...",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "share": "Share",
+    "close": "Close",
+    "yes": "Yes",
+    "no": "No",
+    "confirmDelete": "Are you sure you want to delete this?",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "create": "Create",
+    "update": "Update",
+    "remove": "Remove",
+    "activate": "Activate",
+    "deactivate": "Deactivate",
+    "admin": "Admin",
+    "user": "User",
+    "active": "Active",
+    "inactive": "Inactive"
+  },
+  "navbar": {
+    "dashboard": "Dashboard",
+    "profile": "Profile",
+    "admin": "Admin",
+    "home": "Home",
+    "language": "Language",
+    "english": "English",
+    "spanish": "Spanish",
+    "arabic": "Arabic"
+  },
+  "home": {
+    "hero": {
+      "badge": "Free to use - No credit card required",
+      "title": "One link to",
+      "highlight": "share everything",
+      "description": "Create your personal link hub in minutes. Share your social profiles, websites, and content with a single, beautiful link.",
+      "getStarted": "Get Started Free",
+      "viewDemo": "View Demo"
+    },
+    "features": {
+      "title": "Everything you need",
+      "subtitle": "Powerful features to help you share and grow",
+      "fast": {
+        "title": "Lightning Fast",
+        "description": "Create your profile in seconds and start sharing your links instantly."
+      },
+      "customizable": {
+        "title": "Customizable",
+        "description": "Personalize your profile with custom themes, colors, and styling options."
+      },
+      "analytics": {
+        "title": "Analytics",
+        "description": "Track clicks and engagement with detailed analytics for all your links."
+      },
+      "secure": {
+        "title": "Secure",
+        "description": "Your data is protected with industry-standard security measures."
+      }
+    },
+    "cta": {
+      "title": "Ready to share your world?",
+        "description": "Join thousands of creators, influencers, and businesses who trust profl.ink.",
+      "button": "Create Your Profile"
+    },
+    "footer": {
+        "copyright": "© 2024 profl.ink. Built with MERN Stack."
+    }
+  },
+  "login": {
+    "title": "Welcome back",
+    "subtitle": "Don't have an account?",
+    "signUpLink": "Sign up",
+    "email": "Email address",
+    "emailPlaceholder": "you@example.com",
+    "password": "Password",
+    "passwordPlaceholder": "••••••••",
+    "signInButton": "Sign in",
+    "demoCredentials": "Demo credentials",
+    "adminDemo": "Admin: admin@linktree.com / admin123"
+  },
+  "register": {
+    "title": "Create your account",
+    "subtitle": "Already have an account?",
+    "signInLink": "Sign in",
+    "email": "Email address",
+    "emailPlaceholder": "you@example.com",
+    "username": "Username",
+    "usernamePlaceholder": "johndoe",
+    "usernameHint": "Your profile will be at /u/username",
+    "displayName": "Display Name (optional)",
+    "displayNamePlaceholder": "John Doe",
+    "password": "Password",
+    "passwordPlaceholder": "••••••••",
+    "passwordHint": "Must be at least 6 characters",
+    "createButton": "Create account",
+    "terms": "By creating an account, you agree to our Terms of Service and Privacy Policy"
+  },
+  "dashboard": {
+    "stats": {
+      "totalLinks": "Total Links",
+      "activeLinks": "Active Links",
+      "totalClicks": "Total Clicks",
+      "yourProfile": "Your Profile",
+      "copyLink": "Copy Link"
+    },
+    "links": {
+      "title": "Your Links",
+      "subtitle": "Manage and organize your shared links",
+      "addLink": "Add Link",
+      "noLinks": "No links yet",
+      "noLinksDescription": "Add your first link to get started",
+      "addFirstLink": "Add Your First Link",
+      "clicks": "clicks",
+      "hide": "Hide link",
+      "show": "Show link",
+      "edit": "Edit link",
+      "delete": "Delete link"
+    },
+    "modal": {
+      "addTitle": "Add New Link",
+      "editTitle": "Edit Link",
+      "titleLabel": "Title",
+      "titlePlaceholder": "My Website",
+      "urlLabel": "URL",
+      "urlPlaceholder": "https://example.com",
+      "iconLabel": "Icon",
+      "cancel": "Cancel",
+      "addButton": "Add Link",
+      "updateButton": "Update Link"
+    }
+  },
+  "profile": {
+    "publicProfile": {
+      "title": "Your Public Profile",
+      "description": "Share this link with your audience",
+      "copyLink": "Copy Link"
+    },
+    "information": {
+      "title": "Profile Information",
+      "subtitle": "Update your profile details",
+      "displayName": "Display Name",
+      "username": "Username",
+      "usernameHint": "Username cannot be changed",
+      "bio": "Bio",
+      "bioPlaceholder": "Tell us about yourself...",
+      "bioHint": "{{count}}/500 characters",
+      "saveChanges": "Save Changes"
+    },
+    "social": {
+      "title": "Social Links",
+      "subtitle": "Connect your social media accounts",
+      "saveButton": "Save Social Links"
+    },
+    "theme": {
+      "title": "Theme",
+      "subtitle": "Customize your profile appearance",
+      "backgroundColor": "Background Color",
+      "buttonColor": "Button Color",
+      "buttonTextColor": "Button Text Color",
+      "preview": "Preview",
+      "sampleButton": "Sample Button",
+      "saveButton": "Save Theme"
+    }
+  },
+  "publicProfile": {
+    "notFound": {
+      "title": "Profile Not Found",
+      "description": "The profile you're looking for doesn't exist.",
+      "goHome": "Go Home"
+    },
+    "createYourOwn": "Create your own profl.ink"
+  },
+  "admin": {
+    "title": "Admin Dashboard",
+    "subtitle": "Manage users and view system statistics",
+    "refresh": "Refresh",
+    "tabs": {
+      "overview": "Overview",
+      "users": "Users"
+    },
+    "stats": {
+      "totalUsers": "Total Users",
+      "activeUsers": "Active Users",
+      "totalLinks": "Total Links",
+      "activeLinks": "Active Links",
+      "clicksToday": "Clicks Today"
+    },
+    "charts": {
+      "clicksTitle": "Clicks (Last 30 Days)"
+    },
+    "topUsers": {
+      "title": "Top Users by Clicks",
+      "noData": "No data yet"
+    },
+    "users": {
+      "searchPlaceholder": "Search users by username or email...",
+      "userColumn": "User",
+      "statusColumn": "Status",
+      "roleColumn": "Role",
+      "joinedColumn": "Joined",
+      "actionsColumn": "Actions",
+      "noUsers": "No users found",
+      "makeAdmin": "Make admin",
+      "removeAdmin": "Remove admin",
+      "activate": "Activate",
+      "deactivate": "Deactivate",
+      "delete": "Delete user"
+    },
+    "pagination": {
+      "page": "Page {{current}} of {{total}}"
+    }
+  },
+  "errors": {
+    "generic": "Something went wrong",
+    "loginFailed": "Login failed",
+    "registerFailed": "Registration failed",
+    "profileUpdateFailed": "Failed to update profile",
+    "linkCreateFailed": "Failed to create link",
+    "linkUpdateFailed": "Failed to update link",
+    "linkDeleteFailed": "Failed to delete link",
+    "loadLinksFailed": "Failed to load links"
+  },
+  "success": {
+    "login": "Welcome back!",
+    "register": "Account created successfully!",
+    "logout": "Logged out successfully",
+    "profileUpdated": "Profile updated successfully",
+    "linkCreated": "Link created successfully",
+    "linkUpdated": "Link updated successfully",
+    "linkDeleted": "Link deleted successfully",
+    "linkHidden": "Link hidden",
+    "linkVisible": "Link visible",
+    "linkCopied": "Profile link copied!",
+    "adminStatusUpdated": "User admin status updated",
+    "userStatusUpdated": "User status updated",
+    "userDeleted": "User deleted successfully"
+  }
+}

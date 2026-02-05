@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+ font-family: "Inter", "Tajawal", sans-serif;
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+}
+
+/* Arabic font support */
+[lang="ar"] body {
+ font-family: "Tajawal", sans-serif;
+}
+
+/* RTL Support */
+[dir="rtl"] .space-x-1 > * + * {
+ --tw-space-x-reverse: 1;
+}
+
+[dir="rtl"] .space-x-2 > * + * {
+ --tw-space-x-reverse: 1;
+}
+
+[dir="rtl"] .space-x-3 > * + * {
+ --tw-space-x-reverse: 1;
+}
+
+[dir="rtl"] .space-x-4 > * + * {
+ --tw-space-x-reverse: 1;
+}
+
+[dir="rtl"] .space-x-8 > * + * {
+ --tw-space-x-reverse: 1;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+ width: 8px;
+ height: 8px;
+}
+
+::-webkit-scrollbar-track {
+ background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+ background: #888;
+ border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+ background: #555;
+}
+
+/* Animations */
+.animate-in {
+ animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+ from {
+  opacity: 0;
+  transform: translateY(10px);
+ }
+ to {
+  opacity: 1;
+  transform: translateY(0);
+ }
+}
