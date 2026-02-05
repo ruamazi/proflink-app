@@ -33,7 +33,7 @@ const Register = () => {
         <div className="text-center">
           <div className="flex justify-center">
             <img
-              src="/logo.png"
+              src="./logo.png"
               alt="Logo"
               className="h-16 w-auto"
             />

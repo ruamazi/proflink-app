@@ -116,7 +116,7 @@ const Home = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center mb-4 md:mb-0">
               <img
-                src="/logo.png"
+                src="./logo.png"
                 alt="Logo"
                 className="h-8 w-auto"
               />
