@@ -9,3 +9,45 @@
   from = "/*"
   to = "/index.html"
   status = 200
+
+# Handle SPA routing for all paths except static files
+[[redirects]]
+  from = "/admin/*"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/dashboard/*"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/profile/*"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/login"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/register"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/u/*"
+  to = "/index.html"
+  status = 200
+
+# Static files should not be redirected
+[[redirects]]
+  from = "/api/*"
+  to = "/index.html"
+  status = 404
+
+[[redirects]]
+  from = "/assets/*"
+  to = "/index.html"
+  status = 404
